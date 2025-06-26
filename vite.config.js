@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
     plugins: [
-        require('@tailwindcss/forms'),
+        
         tailwindcss(),
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
